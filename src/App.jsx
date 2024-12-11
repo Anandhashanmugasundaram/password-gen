@@ -88,7 +88,7 @@ function App() {
             value={numberAllowed}
           />
           <label className="text-white text-center" htmlFor="number">
-            Number: {numberAllowed ? 'Enabled' : 'Disabled'}
+            Number: {numberAllowed}
           </label>
 
           <input
@@ -98,7 +98,7 @@ function App() {
             value={charAllowed}
           />
           <label className="text-white text-center" htmlFor="character">
-            Character: {charAllowed ? 'Enabled' : 'Disabled'}
+            Character: {charAllowed}
           </label>
         </div>
       </div>
